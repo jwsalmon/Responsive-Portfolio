@@ -1,0 +1,152 @@
+body{
+    background-image: url("../images/qbkls.png");
+    margin: 0px;
+}
+
+.pageTitle{
+    color: #4aaaa5
+}
+#name{
+    height: 45px;
+    background-color: #4aaaa5;
+    width: 200px;
+    float: left;
+    color: white;
+    margin: 0px 0px 0px 334px;
+    padding: 0px 5px 11px 6px;
+}
+
+header{
+    height: 57px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    background-color: #ffffff
+}
+
+.lower { 
+    width: 958px;
+    height: 4440px;
+    margin: 20px 0px 0px 335px;
+    border: 1px solid #cccccc;
+   /* background-image: url("/assets/images/qbkls.png");*/
+    background-color: #ffffff;
+}
+
+#about{
+    float: right;
+    margin: 0px 10px 0px 366px;
+}
+#aboutBnt {
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+
+}
+#portfolio{
+    float: right;
+    margin: 0px 10px 0px 3px;
+}
+#portfolioBtn{
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+
+}
+#contact {
+    float: right;
+    margin: 0px 190px 0px 10px;
+}
+#contactBtn {
+    height: 50px;
+    width: 100px;
+    font-size: 14pt;
+    font-style: normal
+    
+}
+#PortDisplay{
+    height: 700px;
+    width: 958px;
+    margin: 20px 335px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+#prj1{
+    position: relative;
+    left: 10px;
+}
+#prj2{
+    position: relative;
+    left: 10px;
+}
+#prj3{
+    position: relative;
+    left: 10px;
+}
+#prj4{
+    position: relative;
+    left: 250px;
+    bottom: 610px
+
+}
+#prj5{
+    position: relative;
+    left: 250px;
+    bottom: 610px
+}
+input[type=submit]{
+    font-size: 14pt;
+    color: white; 
+    background-color: green;  
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col-Lable {
+    float: left;
+    width: 5%;
+    margin-top: 6px;
+    color: #777777;
+}
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: #777777;
+}
+.col-input {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    margin-left: 16px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/*#myimage{
+    float: left;
+}*/
+#mystory {
+    position: absolute;
+    left: 590px;
+    top: 200px;
+    width: 701px;
+    float: right;
+    color: #777777;
+};
