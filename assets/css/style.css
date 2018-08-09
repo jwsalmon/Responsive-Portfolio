@@ -6,6 +6,8 @@ body{
 .pageTitle{
     color: #4aaaa5;
     border-bottom: solid #777777;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #name{
     height: 45px;
@@ -31,6 +33,15 @@ header{
     border: 1px solid #cccccc;
    /* background-image: url("/assets/images/qbkls.png");*/
     background-color: #ffffff;
+}
+.lower1{
+    width: 650px;
+    height: 610px;
+    margin: 20px 0px 0px 90px;
+    border: 1px solid #cccccc;
+   /* background-image: url("/assets/images/qbkls.png");*/
+    background-color: #ffffff;
+
 }
 
 #about{
@@ -69,6 +80,8 @@ header{
 #aboutprotcontBtns {
  float: right;
  width: 300px;
+ background-color: #ffffff
+
 }
 #PortDisplay{
     height: 940px;
@@ -112,7 +125,9 @@ label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
-
+#form1{
+    margin-top: 5px;
+}
 .col-Lable {
     width: 5%;
     margin-left: 16px;
@@ -179,19 +194,28 @@ input[type=text], select, textarea {
     }
     #name{
         width: 100%;
+        text-align: center;
     }
     .lower{
         margin: 55px 0px 0px 30px;
         width: 535px;
-        height: 830px;;
+        height: 830px;
+    }
+    .lower1 {
+        height: 610px;
+        width: 535px;
+        margin: 55px 0px 0px 30px;
     }
     #mystory{
-        position: relative;
-        width: 410px;
-        left: 280px;
+        position: unset;
+        width: 95%;
         left: 0px;
         top: 0px;
-    }  
+    } 
+    #mystoryP2{
+        color: #777777;
+        margin: 5%;
+    } 
     #myPic{
         width: 475px;
         height: 360px;
@@ -211,6 +235,46 @@ input[type=text], select, textarea {
     }
     #PortDisplay{
         margin: 55px 0px 0px 30px;
-    } 
-
+        height: 1100px;
+        width: 450px;
+       } 
+    #prj1{
+        position: relative;
+        left: 30px;
+        top: 5px;
+        height: 290px;
+        width: 390px;
+    }
+    #pic1{
+        height: 290px;
+        width: 390px;        
+    }
+    #prj2{
+        position: relative;
+        left: 30px;
+        top: 30px;
+        height: 290px;
+        width: 390px;
+    }
+    #pic2{
+        height: 290px;
+        width: 390px;
+    }
+    #prj3{
+        position: relative;
+        left: 30px;
+        top: 60px;
+        height: 290px;
+        width: 390px;
+    }
+    #pic3{
+        height: 290px;
+        width: 390px;
+    }
+    #prj4{
+       visibility: hidden;
+    }
+    #prj5{
+       visibility: hidden;
+    }
 }
