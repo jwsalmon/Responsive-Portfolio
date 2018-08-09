@@ -66,8 +66,7 @@ header{
     font-style: normal
     
 }
-#aboutprotcontBtns
-{
+#aboutprotcontBtns {
  float: right;
  width: 300px;
 }
@@ -178,24 +177,40 @@ input[type=text], select, textarea {
         width: 100%;
         margin-top: 0;
     }
+    #name{
+        width: 100%;
+    }
+    .lower{
+        margin: 55px 0px 0px 30px;
+        width: 535px;
+        height: 830px;;
+    }
+    #mystory{
+        position: relative;
+        width: 410px;
+        left: 280px;
+        left: 0px;
+        top: 0px;
+    }  
+    #myPic{
+        width: 475px;
+        height: 360px;
+        margin-left: 30px;
+    }
+    #aboutprotcontBtns {
+        width: 100%;
+    }
+    #about{  
+        margin: 6px 5px 0px 0px;
+    }  
+    #portfolio{
+        margin: 6px 5px 0px 3px;
+    }
+    #contact {
+        margin: 6px 180px 0px 5px;
+    }
+    #PortDisplay{
+        margin: 55px 0px 0px 30px;
+    } 
 
-    /* navigaton buttons */
-    #aboutBnt {
-        height: 5px;
-        width: 10px;
-        font-size: 4pt;
-        font-style: normal
-    }
-    #portfolioBtn{
-        height: 5px;
-        width: 10px;
-        font-size: 4pt;
-        font-style: normal
-    }
-    #contactBtn {
-        height: 0px;
-        width: 10px;
-        font-size: 4pt;
-        font-style: normal   
-    }
 }
