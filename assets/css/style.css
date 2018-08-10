@@ -61,14 +61,14 @@ header{
 }
 #portfolioBtn{
     height: 40px;
-    width: 70px;
+    width: 73px;
     font-size: 12pt;
     font-style: normal
 
 }
 #contact {
     float: right;
-    margin: 6px 5px 0px 5px;
+    margin: 6px 15px 0px 5px;
 }
 #contactBtn {
     height: 40px;
