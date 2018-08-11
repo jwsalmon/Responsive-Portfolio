@@ -36,7 +36,7 @@ header{
 }
 .lower1{
     width: 650px;
-    height: 610px;
+    height: 570px;
     margin: 20px 0px 0px 90px;
     border: 1px solid #cccccc;
    /* background-image: url("/assets/images/qbkls.png");*/
@@ -142,7 +142,7 @@ input[type=text], select, textarea {
     color: #777777;
 }
 .col-input {
-    width: 75%;
+    width: 100%;
     margin-left: 16px;
 }
 /* Clear floats after the columns */
@@ -171,13 +171,18 @@ input[type=text], select, textarea {
     #name{
         margin-left: 30px;
     }  
-    .lower{
+    .lower {
         margin: 10px 0px 0px 30px;
         /*margin-left: 30px;*/
         width: 710px;
         height: 515px;
     
     }  
+    .lower1{
+     width: 710px;
+     height: 570px;
+     margin: 30px;
+    }
     #mystory{
         width: 410px;
         left: 280px;
@@ -195,6 +200,9 @@ input[type=text], select, textarea {
     #name{
         width: 100%;
         text-align: center;
+        float: unset;
+        margin: -21px 0px 0px 0px;
+        padding: 0px;    
     }
     .lower{
         margin: 55px 0px 0px 30px;
